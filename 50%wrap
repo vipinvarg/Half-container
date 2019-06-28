@@ -1,0 +1,69 @@
+<div class="left-half">
+    <div class="half-container">
+	</div>
+</div>
+<div class="right-half">
+    <div class="half-container">
+    </div>
+</div>
+
+
+.half-container{
+	width: 100%;
+}
+@media  (min-width:1199px) {
+	.half-container{
+		width: 570px;
+		padding: 0 15px;
+	}
+}
+
+@media  (max-width:991px) {
+	.half-container{
+		width: 100%;
+	}
+}
+.left-half{
+	float: left;
+	width: 50%;
+}
+@media  (max-width:1199px) {
+	.left-half{
+		padding: 0 15px;
+	}
+}
+@media  (max-width:991px) {
+	.left-half{
+		width: 100%;
+		padding: 0 15px;
+	}
+}
+.left-half .half-container{
+	float: right;
+}
+.right-half{
+	float: left;
+	width: 50%;
+}
+@media  (min-width:1199px) {
+	.right-half{
+		padding-left: 30px;
+	}
+}
+.right-half .half-container{
+	float: left;
+}
+@media  (max-width:1199px) {
+	.right-half{
+		padding: 0 15px;
+	}
+	.half-container{
+		padding: 0 15px;
+	}
+}
+@media  (max-width:991px) {
+	.right-half{
+		width: 100%;
+		padding: 0 15px;
+	}
+}
